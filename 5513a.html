@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>area of circle</title>
+</head>
+<body>
+    <h1>Area and circumference of a circle</h1>
+    <label>Enter the radius for your circle:</label> 
+    <input type="text" id="txtRadius" /><br>
+    <input type="button" value="Calculate" onClick=CalculateArea() />
+    <script>function CalculateArea() {
+        var radius = document.getElementById('txtRadius').value;
+        alert("The area of the circle is " + (radius * radius * Math.PI));
+    }
+    </script>
+    </body>
+    </html>
